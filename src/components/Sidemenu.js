@@ -37,7 +37,6 @@ const Item = styled(Link)`
         color: #e87910;
         cursor: pointer;
     }
-    
 `
 
 

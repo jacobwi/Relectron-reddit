@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styled from '@emotion/styled'
+const {remote} = require('electron');
 
 const Bar = styled.div`
     width: 100%;
@@ -50,12 +51,17 @@ export default class Header extends Component {
     closeButton() {
         window.close();
     }
+    minimizeWindow() {
+        console.log("close")
+        var window = remote.BrowserWindow.getFocusedWindow();
+        window.minimize();
+    }
   render() {
     return (
       <Bar>
         <Buttons>
             <CloseButton onClick={this.closeButton}/>
-            <MinimizeButton />
+            <MinimizeButton onClick={this.minimizeWindow}/>
         </Buttons>
       </Bar>
     )

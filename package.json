@@ -37,6 +37,8 @@
   "dependencies": {
     "@emotion/core": "^10.0.4",
     "@emotion/styled": "^10.0.4",
+    "@material-ui/core": "^3.6.2",
+    "@material-ui/icons": "^3.0.1",
     "axios": "^0.18.0",
     "react-hot-loader": "^4.3.12",
     "react-icons": "^3.2.2",
