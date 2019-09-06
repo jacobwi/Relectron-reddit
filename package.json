@@ -2,11 +2,11 @@
   "name": "Relectron-reddit",
   "version": "0.1.0",
   "description": "Cross-platform Reddit application for pc developed using JavaScript, React, and Electron",
-  "author": "Amjed (Onlyserenity)",
-  "homepage": "https://github.com/onlyserenity/Relectron-reddit",
+  "author": "Jacob William",
+  "homepage": "https://github.com/jacobwi/Relectron-reddit",
   "repository": {
     "type": "git",
-    "url": "https://github.com/onlyserenity/Relectron-reddit.git"
+    "url": "https://github.com/jacobwi/Relectron-reddit.git"
   },
   "license": "MIT",
   "main": "main.js",
